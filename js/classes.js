@@ -17,6 +17,7 @@ class Sprite {
     this.framesElapsed = 0;
     this.framesHold = 5;
     this.offset = offset;
+    sound_background.play()
   }
 
   draw() {
