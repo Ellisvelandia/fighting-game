@@ -7,8 +7,6 @@ canvas.height = 576;
 c.fillRect(0, 0, canvas.width, canvas.height);
 
 const gravity = 0.7;
-let sound_background = new Audio("./assets/samurai.mp3");
-
 
 const background = new Sprite({
   position: {

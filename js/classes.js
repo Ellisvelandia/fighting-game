@@ -1,3 +1,5 @@
+let sound_background = new Audio("./assets/samurai.mp3");
+
 class Sprite {
   constructor({
     position,
